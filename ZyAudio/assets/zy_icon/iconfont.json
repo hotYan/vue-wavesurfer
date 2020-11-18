@@ -1,0 +1,37 @@
+{
+  "id": "2017391",
+  "name": "audio",
+  "font_family": "iconfont",
+  "css_prefix_text": "zy-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15325903",
+      "name": "暂停 停止",
+      "font_class": "pause",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "10125987",
+      "name": "重复",
+      "font_class": "replay",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "119587",
+      "name": "正方形",
+      "font_class": "stop",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14318454",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
