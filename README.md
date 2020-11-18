@@ -11,19 +11,27 @@ wavesurfer.js 官网[点这里](https://wavesurfer-js.org/)
 <br/>
 
 ## 使用
-将代码拷贝到可运行的vue项目中，将组件添加到路由文件：
-```js
-// 例如
-{
-  path: '/audio',
-  component: Layout,
-  redirect: '/audio/index',
-  children: [
+1. 安装依赖
+
+    ```shell
+    $ npm install wavesurfer.js --save
+    # or 
+    $ yarn add wavesurfer.js
+    ```
+2. 将代码拷贝到可运行的vue项目中，将组件添加到路由文件即可：
+
+    ```js
+    // 例如
     {
-      path: 'index',
-      component: () => import('@/components/ZyAudio/index.vue'),
-      name: 'AudioIndex',
-    }
-  ]     
-},
-```
+      path: '/audio',
+      component: Layout,
+      redirect: '/audio/index',
+      children: [
+        {
+          path: 'index',
+          component: () => import('@/components/ZyAudio/index.vue'),
+          name: 'AudioIndex',
+        }
+      ]     
+    },
+    ```
